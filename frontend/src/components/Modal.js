@@ -68,6 +68,9 @@ export default class CustomModal extends Component {
                 Completed
               </Label>
             </FormGroup>
+            <FormGroup>
+              {this.props.children}
+            </FormGroup>
           </Form>
         </ModalBody>
         <ModalFooter>
